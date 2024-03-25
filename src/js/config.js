@@ -1,0 +1,10 @@
+export const API_URL = `https://openlibrary.org/search.json?q=`;
+export const API_URL_FIELDS = `&fields=*`;
+export const RESULTS_PER_PAGE = 10;
+export const API_URL_LIMIT = `&limit=`;
+export const BOOK_EDITION_LENGTH = 4;
+export const TOP_RATED = "ratings_sortable desc";
+export const EDITION_DESCENDING = "edition_count desc";
+export const EBOOKS = "ebook_access desc";
+export const WANT_TO_READ = "Want_to_read_count desc";
+export const CURRENTLY_READING = "currently_reading_count desc";

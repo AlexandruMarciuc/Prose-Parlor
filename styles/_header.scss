@@ -1,0 +1,93 @@
+@import "./variables";
+@mixin flexSpace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items only along the main axis */
+}
+@mixin resetMargin {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70vw;
+  height: $headerHeight;
+  @include flexSpace();
+  opacity: 1;
+
+  img {
+    width: 2vw;
+    height: 3vh;
+  }
+}
+
+.logo {
+  position: relative;
+  height: $headerHeight;
+  cursor: pointer;
+  span {
+    font-size: 1.9rem;
+    position: relative;
+    top: -10%;
+    font-family: "Times New Roman", Times, serif;
+  }
+  img {
+    width: $logoImageWidth;
+    height: $logoImageHeight;
+  }
+}
+
+.search-field {
+  position: relative;
+  top: 15%;
+  height: $headerHeight;
+  font-family: "Times New Roman", Times, serif;
+  @include resetMargin();
+
+  input {
+    text-indent: 10px; /* Adjust as needed */
+    outline: none; /* Remove outline on focus */
+    font-family: "Times New Roman", Times, serif;
+    width: 27vw;
+    height: 6vh;
+    @include resetMargin();
+    vertical-align: middle; /* Align vertically */
+    font-size: 1.1rem;
+    border: solid rgb(191, 191, 191) 1px;
+  }
+
+  button {
+    border: solid rgb(191, 191, 191) 1px;
+    width: 3.5vw;
+    height: 6vh;
+    @include resetMargin();
+    vertical-align: middle; /* Align vertically */
+    cursor: pointer;
+  }
+}
+
+.bookmarks-button {
+  span {
+    font-family: "Times New Roman", Times, serif;
+  }
+  cursor: pointer;
+  position: relative;
+  top: 5%;
+  width: 8vw;
+  height: 6vh;
+  font-size: 1.1rem;
+  border: solid rgb(191, 191, 191) 1px;
+}
+
+.user-panel {
+  position: relative;
+  top: 5%;
+  width: 4vw;
+  height: 6vh;
+  cursor: pointer;
+  border: solid rgb(191, 191, 191) 1px;
+}

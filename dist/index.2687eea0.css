@@ -1,0 +1,347 @@
+.header {
+  opacity: 1;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  height: 7vh;
+  display: flex;
+  position: relative;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.header img {
+  width: 2vw;
+  height: 3vh;
+}
+
+.logo {
+  cursor: pointer;
+  height: 7vh;
+  position: relative;
+}
+
+.logo span {
+  font-family: Times New Roman, Times, serif;
+  font-size: 1.9rem;
+  position: relative;
+  top: -10%;
+}
+
+.logo img {
+  width: 5vw;
+  height: 7vh;
+}
+
+.search-field {
+  height: 7vh;
+  margin: 0;
+  padding: 0;
+  font-family: Times New Roman, Times, serif;
+  position: relative;
+  top: 15%;
+}
+
+.search-field input {
+  text-indent: 10px;
+  vertical-align: middle;
+  border: 1px solid #bfbfbf;
+  outline: none;
+  width: 27vw;
+  height: 6vh;
+  margin: 0;
+  padding: 0;
+  font-family: Times New Roman, Times, serif;
+  font-size: 1.1rem;
+}
+
+.search-field button {
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #bfbfbf;
+  width: 3.5vw;
+  height: 6vh;
+  margin: 0;
+  padding: 0;
+}
+
+.bookmarks-button {
+  cursor: pointer;
+  border: 1px solid #bfbfbf;
+  width: 8vw;
+  height: 6vh;
+  font-size: 1.1rem;
+  position: relative;
+  top: 5%;
+}
+
+.bookmarks-button span {
+  font-family: Times New Roman, Times, serif;
+}
+
+.user-panel {
+  cursor: pointer;
+  border: 1px solid #bfbfbf;
+  width: 4vw;
+  height: 6vh;
+  position: relative;
+  top: 5%;
+}
+
+body {
+  background-color: #fffdd0da;
+  margin-bottom: 15%;
+  position: relative;
+}
+
+.results-panel-container {
+  z-index: 1;
+  opacity: 1;
+  background-color: #f5f5f5;
+  width: 70vw;
+  min-height: 150vh;
+  padding-bottom: 2vh;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.results-panel-container a {
+  font-family: Times New Roman, Times, serif;
+  text-decoration: none;
+}
+
+.results-panel-list {
+  width: 55vw;
+  position: relative;
+}
+
+.results-ul {
+  margin-top: 6%;
+}
+
+.results-ul-item {
+  background-color: #f5f5f5b6;
+  border: 1px solid #c5c082;
+  align-items: center;
+  height: 25vh;
+  margin-bottom: 1%;
+  margin-left: -4%;
+  display: flex;
+  position: relative;
+}
+
+.results-ul-item .item-info {
+  flex-direction: column;
+  margin-left: 3%;
+  font-size: 1.2rem;
+  display: flex;
+  position: relative;
+}
+
+.results-ul-item .editions-links {
+  margin-top: 2%;
+}
+
+.results-ul-item .editions-links img {
+  width: 2.5vw;
+  height: 7vh;
+}
+
+.results-ul-item .item-title {
+  width: 30vw;
+  font-family: Times New Roman, Times, serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.results-ul-item .item-author {
+  width: 30vw;
+  font-family: Times New Roman, Times, serif;
+  font-size: 1.1rem;
+}
+
+.results-ul-item .published-date {
+  width: 30vw;
+  margin-top: 2%;
+  font-family: Times New Roman, Times, serif;
+  font-size: .9rem;
+}
+
+.results-ul-item .item-editions {
+  font-family: Times New Roman, Times, serif;
+  font-size: .9rem;
+}
+
+.results-bookcover {
+  margin-left: 2%;
+}
+
+.results-bookcover img {
+  width: 7vw;
+  height: 21vh;
+}
+
+.result-options {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18vw;
+  height: 9vh;
+  margin-top: -13%;
+  margin-left: 73%;
+  display: flex;
+  position: absolute;
+}
+
+.result-options .borrow {
+  position: inherit;
+  border: 1px solid #bfbfbf;
+  width: 9vw;
+  height: 4.3vh;
+  font-family: Times New Roman, Times, serif;
+  font-size: .9rem;
+  left: 4vw;
+}
+
+.result-options .add-bookmarks-button {
+  position: inherit;
+  border: 1px solid #bfbfbf;
+  width: 9vw;
+  height: 4.5vh;
+  margin-top: 27%;
+  margin-left: 4.7%;
+  font-family: Times New Roman, Times, serif;
+  font-size: .9rem;
+  left: 3.7vw;
+}
+
+.sort-panel {
+  margin-left: 3%;
+  font-family: Times New Roman, Times, serif;
+  position: relative;
+  top: 18px;
+}
+
+.sort-panel span {
+  margin-right: 2%;
+  font-family: Times New Roman, Times, serif;
+  font-size: 1rem;
+}
+
+.sort-panel a {
+  margin-right: 2%;
+  font-family: Times New Roman, Times, serif;
+  font-size: .9rem;
+}
+
+.Pagination {
+  align-items: baseline;
+  margin-left: 15%;
+  display: flex;
+  position: relative;
+}
+
+.Pagination a, .Pagination span {
+  margin-right: 3%;
+  font-size: .95rem;
+}
+
+.facet-panel {
+  flex-direction: column;
+  justify-content: center;
+  width: 15vw;
+  display: flex;
+  position: absolute;
+  top: 4vw;
+  right: 0;
+}
+
+.facet-panel h1 {
+  margin-top: 14%;
+  font-size: 1rem;
+  position: relative;
+  right: 0;
+}
+
+.facet-panel span {
+  white-space: normal;
+  max-width: 22vw;
+  margin-top: 10%;
+  font-size: .9rem;
+  display: inline-block;
+  position: relative;
+}
+
+.facet-panel .facet-section {
+  width: 13vw;
+  position: relative;
+  right: -1vw;
+}
+
+.facet-panel .facet-section button {
+  background-color: #f5f5f5b6;
+  border: none;
+}
+
+.facet-panel .facet-entry {
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 22%;
+  display: flex;
+}
+
+.facet-panel .facet-entry button {
+  text-align: left;
+  margin-top: 5%;
+}
+
+.Footnote {
+  flex-direction: column;
+  width: 40vw;
+  font-size: .9rem;
+  display: flex;
+  position: relative;
+  top: 20vh;
+  left: 55%;
+  transform: translate(-50%);
+}
+
+.Footnote .first-row {
+  margin-left: 5%;
+}
+
+.Footnote .third-row {
+  margin-left: -10%;
+}
+
+.spinner {
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 49%;
+}
+
+.spinner img {
+  pointer-events: none;
+  width: 5rem;
+  height: 5rem;
+  animation: 2s linear infinite rotate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=index.2687eea0.css.map */

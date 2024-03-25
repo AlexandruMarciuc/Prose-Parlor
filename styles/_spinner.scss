@@ -1,0 +1,25 @@
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  text-align: center;
+  height: 5rem;
+  width: 5rem;
+  display: none;
+}
+
+.spinner img {
+  height: 5rem;
+  width: 5rem;
+  animation: rotate 2s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

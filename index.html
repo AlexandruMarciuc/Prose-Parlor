@@ -1,0 +1,272 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="./src/images/library logo.png" alt="" />
+        <span>Prose Parlor</span>
+      </div>
+      <!-- SEARCH FORM -->
+      <div class="search-field">
+        <form class="search-form" action="">
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Search"
+              class="searchField"
+            /><button type="submit">
+              <img src="./src/images/search.png" alt="" />
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- BOOKMARKS -->
+
+      <button class="bookmarks-button"><span>My Books</span></button>
+
+      <!-- USER PANEL -->
+
+      <button class="user-panel">
+        <img src="./src/images/user.png" alt="" />
+      </button>
+    </div>
+
+    <!--RESULTS PANEL-->
+    <div class="results-panel-container">
+      <!--SORT PANEL-->
+      <div class="sort-panel">
+        <span class="sorting-method">3.324 hits Sorted by:</span>
+        <a class="top_rated" data-url="&sort=rating" href="">Top Rated</a>
+        <a class="most_editions" data-url="&sort=editions" href=""
+          >Most Editions</a
+        >
+        <a class="ebooks" data-url="&sort=ebook_access" href="">Ebooks</a>
+        <a class="whishlist" data-url="&sort=want_to_read" href=""
+          >Wishlist Popularity</a
+        >
+        <a class="currently_reading" data-url="&sort=currently_reading" href=""
+          >Currently Reading</a
+        >
+      </div>
+
+      <!--FACET PANEL-->
+      <div class="facet-panel">
+        <div class="facet-section">
+          <h1 class="facet-title">Language</h1>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="eng" data-url="eng" href="">English</a></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="rom" data-url="rom" href="">Romanian</a></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="ita" data-url="ita" href="">Italian</a></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="spa" data-url="spa" href="">Spanish</a></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="fre" data-url="fre" href="">French</a></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="ger" data-url="ger" href="">German</a></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="rus" data-url="rus" href="">Russian</a></span
+              >
+            </button>
+          </div>
+        </div>
+        <div class="facet-section">
+          <h1 class="facet-title">Publish date</h1>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="new" data-url="&sort=new" href="">Newest</a></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="old" data-url="&sort=old" href="">Oldest</a></span
+              >
+            </button>
+          </div>
+        </div>
+        <div class="facet-section">
+          <h1 class="facet-title">Popularity</h1>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="already_read" data-url="&sort=already_read" href=""
+                  >Already read</a
+                ></span
+              >
+            </button>
+          </div>
+        </div>
+        <div class="facet-section">
+          <h1 class="facet-title">Sort by:</h1>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="title_sort" data-url="&sort=title" href=""
+                  >Title</a
+                ></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="scans" data-url="&sort=scans" href="">Scans</a></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="DDC" data-url="&sort=ddc_sort" href=""
+                  >Decimal Classification</a
+                ></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="DDC_asc" data-url="&sort=ddc_sort asc" href=""
+                  >Decimal Classification Ascendent</a
+                ></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="LCC" data-url="&sort=lcc_sort" href=""
+                  >Library of Congress Classification</a
+                ></span
+              >
+            </button>
+          </div>
+          <div class="facet-entry">
+            <button>
+              <span class="facet-language"
+                ><a class="LCC_asc" data-url="&sort=lcc_sort asc" href=""
+                  >Library of Congress Classification Ascendent</a
+                ></span
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!--SEARCH RESULTS-->
+      <div class="results-panel-list">
+        <ul class="results-ul">
+          <li class="results-ul-item">
+            <span class="results-bookcover"
+              ><a href=""
+                ><img src="./src/images/work-in-progress.png" alt="" /></a
+            ></span>
+            <div class="item-info">
+              <div class="item-title"><a href="">Prose Parlor</a></div>
+              <div class="item-author">Marciuc Alexandru</div>
+              <div class="published-date">
+                Welcome to Prose Parlor! Please note that this is an ongoing
+                endeavor, and I'm currently developing features such as
+                bookmarks, user panels, and homepage design. Feel free to test
+                it out and provide feedback as I continue to develop!
+              </div>
+              <!-- <span class="item-editions">
+                <span class="editions-info"
+                  ><a href="">106 editions</a> in 8 languages — 19
+                  previewable</span
+                >
+              </span> -->
+              <!-- <div class="edition-list">
+                <span class="editions-links">
+                  <a href=""><img src="./src/images/cover.jpg" alt="" /></a>
+                </span>
+              </div> -->
+            </div>
+            <!-- <div class="result-options">
+              <a href=""><button class="borrow">Open Library</button></a>
+              <button class="add-bookmarks-button">Add to My Books</button>
+            </div> -->
+          </li>
+        </ul>
+      </div>
+
+      <!--PAGINATION-->
+      <div class="Pagination">
+        <a class="previous" href="">Previous</a>
+        <a class="next" href="">Next</a>
+      </div>
+    </div>
+
+    <!--FOOTNOTE-->
+
+    <div class="Footnote">
+      <span class="first-row"
+        >This project was made possible thanks to the Open Library API.</span
+      >
+      <span class="second-row"
+        >If you're interested in accessing the API for your own projects, click
+        <a href="https://openlibrary.org/developers/api" target="_blank">here</a
+        >.</span
+      >
+      <span class="third-row"
+        >To support the Open Library's mission of providing free access to
+        knowledge, make a donation
+        <a
+          href="https://archive.org/donate/?platform=ol&origin=olwww-TopNavDonateButton"
+          target="_blank"
+          >here</a
+        >.</span
+      >
+    </div>
+    <div class="spinner">
+      <img src="src/images/spinner.png" alt="Loading spinner" />
+    </div>
+    <script type="module" src="src/js/controller.js"></script>
+  </body>
+</html>

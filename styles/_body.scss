@@ -1,0 +1,12 @@
+@import "./variables";
+@mixin flexCenterBody {
+  display: flex;
+  justify-content: center; /* Align items horizontally */
+  align-items: normal;
+}
+
+body {
+  position: relative;
+  background-color: #fffdd0da;
+  margin-bottom: 15%;
+}

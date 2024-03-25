@@ -1,0 +1,17 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  display: flex;
+}
+
+.header img {
+  width: 25px;
+  height: 25px;
+}
+
+body {
+  background-color: #fff9e6;
+}
+
+/*# sourceMappingURL=index.2687eea0.css.map */
